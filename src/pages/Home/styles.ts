@@ -29,4 +29,10 @@ const ButtonStyled = styled.TouchableOpacity`
     padding: 8px;
 `;
 
-export {MainContainer, TextBase, Tittle, ButtonStyled};
+const TextMessage = styled.Text`
+    color: ${({theme}) => theme.COLORS.PRIMARY_COLOR};
+    width: 300px;
+    text-align: center;
+`;
+
+export {MainContainer, TextBase, Tittle, ButtonStyled, TextMessage};
